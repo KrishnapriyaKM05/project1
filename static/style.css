@@ -83,3 +83,26 @@ h1 {
     color: #a03020;
     margin-top: 0.5rem;
 }
+@media (max-width: 480px) {
+    .popup {
+        width: 90%;
+        padding: 1.2rem;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    #result {
+        font-size: 18px;
+    }
+}
