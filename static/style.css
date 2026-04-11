@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #fef6f4;
+    text-align: center;
+}
+
+.page {
+    padding: 2rem 1rem;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #a03020;
+    margin-bottom: 0.4rem;
+}
+
+.subtitle {
+    font-size: 15px;
+    color: #c0705a;
+    margin-bottom: 2rem;
+}
+
+.cards {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.card {
+    width: 160px;
+    padding: 1.5rem 1rem 1.2rem;
+    background: #fdf0ee;
+    border: 0.5px solid #f0bdb5;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.15s, border-color 0.15s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    border-color: #e08070;
+}
+
+.card:active {
+    transform: scale(0.97);
+}
+
+.card svg {
+    width: 72px;
+    height: 72px;
+}
+
+.label {
+    font-size: 15px;
+    font-weight: 500;
+    color: #a03020;
+}
+
+#computer-choice {
+    font-size: 18px;
+    color: #c0705a;
+    margin-bottom: 0.5rem;
+}
+
+#result {
+    font-size: 24px;
+    font-weight: 600;
+    color: #a03020;
+    margin-top: 0.5rem;
+}

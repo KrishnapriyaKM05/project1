@@ -5,16 +5,28 @@
     <link rel="stylesheet" href="/static/style.css">
   </head>
   <body>
-    <h1>Rock Paper Scissors</h1>
+    <div class="page">
+      <h1>Rock Paper Scissors</h1>
+      <p class="subtitle">pick your move</p>
 
-    <div class="buttons">
-      <button onclick="play('rock')"> Rock</button>
-      <button onclick="play('paper')"> Paper</button>
-      <button onclick="play('scissors')"> Scissors</button>
+      <div class="cards">
+        <div class="card" onclick="play('rock')">
+          <!-- SVG hand here -->
+          <span class="label">Rock</span>
+        </div>
+        <div class="card" onclick="play('paper')">
+          <!-- SVG hand here -->
+          <span class="label">Paper</span>
+        </div>
+        <div class="card" onclick="play('scissors')">
+          <!-- SVG hand here -->
+          <span class="label">Scissors</span>
+        </div>
+      </div>
+
+      <p id="computer-choice">Computer chose: ?</p>
+      <p id="result">Make your move!</p>
     </div>
-
-    <p id="computer-choice">Computer chose: ?</p>
-    <p id="result">Make your move!</p>
 
     <script src="/static/script.js"></script>
   </body>
