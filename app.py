@@ -3,7 +3,7 @@ import random
 
 app=Flask(__name__)
 options=("rock","paper","scissors")
-winning=("scissors","stone","rock")
+winning=("scissors","rock","paper")
 
 @app.route("/")
 def home():
