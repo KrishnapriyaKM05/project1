@@ -6,6 +6,7 @@ Tech Stack:html,css,javascript,python.
 TO RUN LOCALLY:
 
 git clone https://github.com/your-username/project1.git
+
 cd project1
 
 pip install -r requirements.txt
